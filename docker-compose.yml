@@ -4,9 +4,9 @@ services:
   postgres:
     image: postgres:latest
     environment:
-      POSTGRES_DB: mibasededatos
-      POSTGRES_USER: usuario
-      POSTGRES_PASSWORD: contraseña
+      POSTGRES_DB: portfolio_db
+      POSTGRES_USER: androidev
+      POSTGRES_PASSWORD: aoie420ndrdv
     volumes:
       - ./db-data:/var/lib/postgresql/data
     ports:
